@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+ 
+.cabecera {
+    padding: 25px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
+ 
+.menu {
+    text-align: center;
+    padding: 12px;
+}
+ 
+.menu a {
+    display: inline-block;
+    margin: 5px 10px;
+}
+ 
+.contenedor, .tarjetas {
+    max-width: 1000px;
+    width: 92%;
+    margin: 20px auto;
+}
+ 
+.columna {
+    display: inline-block;
+    width: 48%;
+    padding: 15px;
+    vertical-align: top;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+.tarjeta {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 15px;
+    vertical-align: top;
+    border: 1px solid #aaaaaa;
+}
