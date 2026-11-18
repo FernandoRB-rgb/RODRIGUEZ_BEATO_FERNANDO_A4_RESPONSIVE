@@ -50,3 +50,33 @@ img {
     vertical-align: top;
     border: 1px solid #aaaaaa;
 }
+
+@media (max-width: 700px) {
+    .columna {
+        width: 100%;
+        display: block;
+    }
+ 
+    .tarjeta {
+        width: 100%;
+        display: block;
+        margin: 12px 0;
+    }
+ 
+    .menu a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .cabecera {
+        padding: 15px;
+    }
+ 
+    .cabecera h1 {
+        font-size: 24px;
+    }
+
+
+    
+
+}
